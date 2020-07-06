@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div id="flow">
+    <div id="input_Container">
+        <input type="text" placeholder="name" > 
+        <input type="password" class="passwordMode focus" id="password" placeholder="password">
+    </div>
+    <div id="input_Cover">
+        <div class="Cover name_Cover" id="name_Cover"></div>
+        <div class="Gemini upper_Star" id="upper_Star"></div>
+        <div class="tails name_Tail"></div>
+
+        <div class="Cover pass_Cover" id="pass_Cover"></div>
+        <div class="ministar-wrap">
+        <div class="Gemini lower_Star" id="lower_Star"></div>
+        </div>
+        <div class="tails pass_Tail"></div>
+
+    </div>
+    <div class="Observatory"></div>
+    <div class="cover1" id="cover1"></div>
+    <div class="cover2" id="cover2"></div>
+    <div class="cogwheel" >
+        <img src="cogwheel.svg" alt="" class="gear" id="cogwheel">
+    </div>
+    <div id="monocular"></div>
+    <div class="star-wrap">
+        <div id="starOpener" class= "blink"></div>
+    </div>
+
+    <svg width="706" height="239" viewBox="0 0 706 239" fill="none" xmlns="http://www.w3.org/2000/svg" class="svgGround">
+        <path d="M56 4L1 15V238H705V36L649 31H575C534 31 412 48 412 48C412 48 296 48 225 31L146 10C146 10 93 -6 56 4Z" stroke="black"/>
+    </svg>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" 
+    integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+    <script src="login.js"></script>
+</body>
+</html>
